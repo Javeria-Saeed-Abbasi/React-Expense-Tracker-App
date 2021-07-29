@@ -9,7 +9,7 @@ import React from 'react';
                     +0.00
                 </p>
             </div>
-
+            <hr/>
             <div>
                 <h4>Expense</h4>
                 <p className="dec-money">

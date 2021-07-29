@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 .wrapper{
   background-color: aqua;
   max-width: 420px;
@@ -8,13 +10,34 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container{
   background-color: hotpink;
   width: 360px;
   text-align: center;
- 
+}
 
+.add-summary-container{
+  background-color: rgb(105, 255, 113);
+  width: 280px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.transac-his-container{
+  
+}
+.transac-list {
+  background-color: burlywood;
+  width: 360px;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.transac-list > li{
+  background-color: rgb(184, 212, 23);
+  display: flex;
+  justify-content: space-between;
 }
