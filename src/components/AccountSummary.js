@@ -16,7 +16,7 @@ import React from 'react';
                     -0.00
                 </p>
             </div>
-
+            
         </div>
     )
 }

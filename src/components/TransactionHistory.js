@@ -3,6 +3,7 @@ import React from 'react';
 
  const TransactionHistory = () => {
     return (
+        
         <div className="transac-his-container">
             <div>
                 <h3>Transaction History</h3>
