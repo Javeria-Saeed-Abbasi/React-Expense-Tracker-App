@@ -37,7 +37,7 @@
 }
 
  .dec-money{
-  color: #2da3ad;
+  color: #d1361b;
   font-weight: bold;
 }
 .transac-his-container{
@@ -73,12 +73,12 @@
 }
 
 .transac-list li.minus {
-  border-right: 5px solid #2da3ad;
+  border-right: 5px solid #d1361b;
 }
 
 .transac-list li.minus:hover {
-  border-right: 5px solid #2da3ad;
-  background-color: #2da3ad;
+  border-right: 5px solid #d1361b;
+  background-color: #d1361b;
   color: #f7f7f7
 }
 .del-btn {
