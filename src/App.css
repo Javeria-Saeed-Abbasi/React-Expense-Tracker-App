@@ -52,18 +52,23 @@
   /* background-color: burlywood; */
   width: 360px;
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   margin-bottom: 40px;
 }
-.transac-list > li{
-  /* background-color: rgb(164, 165, 158); */
+/* .transac-list > li{
+  background-color: rgb(164, 165, 158);
   display: flex;
   justify-content: space-between;
   margin: 7px 0px;
-}
+} */
 
 .transac-list li.plus {
   border-right: 5px solid #b6960a;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .transac-list li.plus:hover {
@@ -74,6 +79,11 @@
 
 .transac-list li.minus {
   border-right: 5px solid #d1361b;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .transac-list li.minus:hover {
